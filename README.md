@@ -11,7 +11,7 @@ An honeypot detector for many chains. The project aims to identify crypto honeyp
 First of all clone the project:
 
 ```bash
-  git clone https://github.com/malvaphe/Crypto-Honeypot-Detector
+  git clone https://github.com/MakonDev/Crypto-Honeypot-Detector
 ```
 
 Then follow these instructions or the project won't work:
