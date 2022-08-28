@@ -1,3 +1,4 @@
+import 'dotenv/config'
 // Server port
 export const port = 8080;
 
@@ -9,7 +10,7 @@ export const maxBuyFee = 10;
 export const maxSellFee = 10;
 
 // Owner address
-export const ownerAddress = '';
+export const ownerAddress = process.env.OWNER_ADDRESS;
 
 // Http providers
 export const BSChttpprovider = 'https://bsc-dataseed.binance.org/';
@@ -21,8 +22,8 @@ export const XDAIhttpprovider = 'https://rpc.gnosischain.com/';
 
 // Multicall addresses
 export const BSCaddress = '';
-export const ETHERaddress = '';
-export const AVAXaddress = '';
+export const ETHERaddress = process.env.ETHCA;
+export const AVAXaddress = process.env.AVAXCA;
 export const FTMaddress = '';
 export const MATICaddress = '';
 export const XDAIaddress = '';
